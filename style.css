@@ -1,4 +1,3 @@
-/* Reset dasar */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,17 +20,16 @@ body {
     margin-top: 40px;
 }
 
-/* Styling Profil */
 .profile-img {
     width: 100px;
-    height: 100px;
+    height: 110px;
     margin-bottom: 15px;
 }
 
 h1 {
     font-size: 1.5rem;
     font-family: 'Anton', sans-serif;
-    color: #00923f; /* Hijau gelap profesional */
+    color: #00923f; 
     margin-bottom: 5px;
     font-weight: normal;
 }
@@ -39,7 +37,7 @@ h1 {
 h2 {
     font-size: 1.5rem;
     font-family: 'Anton', sans-serif;
-    color: #ff0000; /* Hijau gelap profesional */
+    color: #ff0000;
     margin-bottom: 5px;
     font-weight: normal;
 }
@@ -50,11 +48,10 @@ p {
     margin-bottom: 30px;
 }
 
-/* Styling Tombol Link */
 .links {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Jarak antar tombol */
+    gap: 15px; 
 }
 
 .link-btn {
@@ -67,18 +64,16 @@ p {
     border-radius: 10px;
     border: 1px solid #bbf7d0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    transition: all 0.3s ease; /* Animasi mulus saat di-hover */
+    transition: all 0.3s ease; 
 }
 
-/* Efek saat tombol disentuh/di-hover */
 .link-btn:hover {
     background-color: #22c55e;
     color: #ffffff;
-    transform: translateY(-3px); /* Efek tombol terangkat */
+    transform: translateY(-3px); 
     box-shadow: 0 6px 12px rgba(34, 197, 94, 0.2);
 }
 
-/* Footer */
 footer {
     margin-top: 40px;
     font-size: 0.8rem;
